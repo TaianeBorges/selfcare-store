@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    max-width: 100%;
+}
+
+#menu{
+    display: inline-flex;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(252, 252, 252);
+    align-items: flex-end;
+    justify-content: center;
+    
+    
+}
+
+#menu img{
+    align-items: center;
+}
+.icons{
+    text-align: end;
+}
+
+#header{
+   width: 100%;
+    margin:0;
+}
+
+.bar-desc{
+    display: inline-flex;
+    width: 100%;
+    height: 5rem;
+    background-color:#fff;
+    box-shadow:  5px 5px 5px rgb(167, 164, 164);
+   
+    
+}
+
+
+.bar-desc h2{
+    align-items: flex-start;
+    margin-left: 5rem;
+    text-transform: uppercase;
+    
+}
+.bar-desc p{
+    justify-content: end;
+    align-items: flex-end;
+    margin-right: 5rem;
+}
+
+.produtos{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 5rem;
+    align-items: center;
+}
+
+.produtos img{
+    width: 18rem;
+    height: 20rem;
+}
+
+.box{
+    display: grid;
+    align-content: space-between;
+    padding: 3rem;
+}
+
+.valor-produto{
+    display: inline-flex;
+}
+ .produtos  h2{
+    color: green;
+ }
+
+ .contato{
+     display: inline-flex;
+     width: 100%;
+     height: 15rem;
+     background-color: rgb(210, 215, 219);
+     padding: 0 5rem;
+ }
+
+ .contato a,
+ label {
+     color: #000;
+     font-weight: bold;
+     text-decoration: none;
+     align-content: space-around;
+ }
+
+ .links{
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+ }
+
+ .contato .newslatter{
+     
+     align-items: flex-end;
+     justify-content: right;
+     padding: 5rem;
+ }
+
+
+input{
+    width: 15rem;
+    height: 2rem;
+}
+
+
+ button{
+     width: 8rem;
+     height: 3rem;
+     color: #fff;
+     font-weight: bold;
+     background-color: rgb(73, 156, 73);
+     border-radius: 5%;
+ }
+
+ footer{
+     display: inline-flex;
+     width: 100%;
+     color: #fff;
+     height: 5rem;
+ }
+
+ footer .icon-redes{
+     align-items: flex-start;
+ }
+
+.icons-pagamentos{
+     text-align: end;
+     align-items: flex-end;
+ }
